@@ -1,0 +1,20 @@
+.do_section .do_container {
+  display: -webkit-box
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 10px;
+}
+
+
+
+.do_section .do_container .box {
+  text-align: center;
+  position: relative;
+  z-index: 5;
+  margin: 35px 25px 0 25px;
+}
